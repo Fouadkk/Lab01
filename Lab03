@@ -1,0 +1,22 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Security.Cryptography.X509Certificates;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace appconsoleheritage
+{
+    internal class enseigant
+    {
+        public string departement { get; set; }
+        public List<string> matiers { get; set; }
+        public Enseignant(string nom , int age ,string departement): base(nom, age) {
+            department = department;
+            matiers = new list<string>();
+            Publickey void afficherdetails() {
+                Console.WriteLine($" enseignant : {nom}, age {age}, departement {departement}");
+                foreach (string matiere in matieres)
+    }
+            Console.WriteLine("- " + matiere);
+}
